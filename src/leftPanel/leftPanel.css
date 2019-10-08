@@ -1,0 +1,49 @@
+.leftPanel{
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#8989ba+0,8989ba+100;Purple+3D */
+    background: #8989ba; /* Old browsers */
+    background: -moz-linear-gradient(left,  #8989ba 0%, #8989ba 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left,  #8989ba 0%,#8989ba 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right,  #8989ba 0%,#8989ba 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8989ba', endColorstr='#8989ba',GradientType=1 ); /* IE6-9 */
+
+    width: 200px;
+    height: 100%;
+    padding:0;
+}
+
+.leftPanel1{
+    width: 90%;
+    float: right;
+    padding-top: 16px;
+}
+
+ul{
+    list-style: none;
+    width: 100%;
+    padding: 0px;
+    margin: 0;
+}
+
+.theme-nav{
+    width: 100%;
+    padding-top:7px;
+    padding-bottom: 7px;
+    float: left;
+}
+
+.theme-nav a{
+    height: inherit;
+}
+.theme-nav a h3{
+    height: inherit;
+    float: left;
+    margin: 0px;
+    width: 70%;
+}
+
+.pointer{
+    height: 100%;
+    float: left;
+    margin-left: 5px;
+    width: 20%;
+}

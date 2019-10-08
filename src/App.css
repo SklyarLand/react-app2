@@ -1,22 +1,25 @@
-.App {
-  text-align: center;
+body{
+    margin: 0;
+    padding: 0;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f6f8f9+0,e5ebee+0,d7dee3+100,f5f7f9+100 */
+    background: #f6f8f9; /* Old browsers */
+    background: -moz-linear-gradient(left,  #f6f8f9 0%, #e5ebee 0%, #d7dee3 100%, #f5f7f9 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left,  #f6f8f9 0%,#e5ebee 0%,#d7dee3 100%,#f5f7f9 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right,  #f6f8f9 0%,#e5ebee 0%,#d7dee3 100%,#f5f7f9 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6f8f9', endColorstr='#f5f7f9',GradientType=1 ); /* IE6-9 */
+    height: 100%;    
 }
 
-.App-logo {
-  height: 40vmin;
+.App body{
+    margin-right: 30px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+div{
+    margin: 0;
+    padding: 0;
 }
 
-.App-link {
-  color: #09d3ac;
+.leftSide{
+    width: 200px;
+    padding: 0px;
 }
