@@ -2,24 +2,26 @@ import React from 'react';
 import './header.css'
 
 export default class Header extends React.Component{
-    constructor(){
-        super();
+    constructor(props){
+        super(props);
 
         this.state={
             //добавить кнопки
-            buttons :[
-                {name:'Главная'},
-                {name:'Проекты'},
-                {name:'Лабороторные'},
-                {name:'Контакты'}
-            ]
+            buttons : props.titles,
+            indexPages : 0
         }
     }
 
     renderButtons(){
         return this.state.buttons.map(btn =>{
             return(
-                    <a href="@" className='mainButton' onClick={()=>console.log(btn.name)}>{btn.name}</a>
+                    <a href="@" className='mainButton' value ={this.state.buttons.indexOf(btn)} 
+                        onClick={(value)=>{
+                            console.log(btn);
+                            this.indexPages=value;
+                            console.log(this.indexPages);
+                        }}
+                    >{btn}</a>
             );
         });
     }

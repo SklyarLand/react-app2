@@ -7,6 +7,9 @@ header{
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b5bdc8', endColorstr='#28343b',GradientType=0 ); /* IE6-9 */
     font-size: 24pt;
     height: 60px;
+    position: fixed;
+    left:0px;
+    width: 100%;
 }
 .main-panel{
     widows: 900px;

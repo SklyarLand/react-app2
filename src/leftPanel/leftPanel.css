@@ -9,6 +9,8 @@
     width: 200px;
     height: 100%;
     padding:0;
+    position: fixed;
+    top:60px;
 }
 
 .leftPanel1{
